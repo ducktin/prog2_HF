@@ -1,0 +1,40 @@
+# depslib dependency file v1.0
+1463345069 source:c:\users\tintin\documents\egyetem\prog 2\hf\bst_teszt.cpp
+	<iostream>
+	<fstream>
+	"memtrace.h"
+	"BST.hpp"
+
+1463349766 c:\users\tintin\documents\egyetem\prog 2\hf\bst.hpp
+	<iostream>
+	<fstream>
+	"memtrace.h"
+
+1463341623 source:c:\users\tintin\documents\egyetem\prog 2\hf\bst.cpp
+	"memtrace.h"
+	"BST.hpp"
+	"BST_teszt.cpp"
+
+1463245752 c:\users\tintin\documents\egyetem\prog 2\hf\memtrace.h
+	<new>
+	<stdlib.h>
+	<iostream>
+
+1463245763 source:c:\users\tintin\documents\egyetem\prog 2\hf\memtrace.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<ctype.h>
+	"memtrace.h"
+
+1463344276 c:\users\tintin\documents\egyetem\prog 2\hf\bst.cpp
+	"memtrace.h"
+	"BST.hpp"
+
+1463339721 c:\users\tintin\documents\egyetem\prog 2\hf\bst_teszt.cpp
+	<iostream>
+	<fstream>
+	"memtrace.h"
+	"BST.hpp"
+

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>130</x>
+      <y>130</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>BST
+--
+-root: BSTNode
+--
+
+search()
+min()
+max()
+insert()
+delete()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>330</x>
+      <y>130</y>
+      <w>170</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;40.0;150.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>480</x>
+      <y>130</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>BSTNode
+--
+-left: BSTNode
+-right: BSTNode
+-data: &lt;class T&gt;
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>130</x>
+      <y>360</y>
+      <w>210</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>BSTIterator
+--
+--
+next()
+prev()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>580</x>
+      <y>70</y>
+      <w>160</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>110.0;100.0;140.0;100.0;140.0;10.0;10.0;10.0;10.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>220</x>
+      <y>310</y>
+      <w>30</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>260</x>
+      <y>300</y>
+      <w>140</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Inner class
+bg=blue</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
